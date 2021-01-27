@@ -14,7 +14,7 @@ var TimeFormat = "2006-01-02_15:04:05"
 var rootCmd = &cobra.Command{
 	Use:   "goggl",
 	Short: "Manage your work sessions from the terminal",
-	Long: `goggle helps you manage your work sessions from the terminal easily.
+	Long: `Goggl helps you manage your work sessions from the terminal easily.
 When a session is created, a JSON file is created under $HOME/.goggl/running.
 When the session is stopped, the file is moved unde $HOME/.goggl/history for later
 usage.`,
