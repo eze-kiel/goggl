@@ -18,7 +18,7 @@ $ cd goggl
 $ go build
 ```
 
-* get it from the [releases](https://github.com/eze-kiel/goggl/releases) (soon)
+* get it from the [releases](https://github.com/eze-kiel/goggl/releases)
 
 ## Usage
 
