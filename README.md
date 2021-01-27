@@ -1,4 +1,4 @@
-# Goggl
+# goggl
 
 Manage your work time from the terminal !
 
@@ -19,8 +19,8 @@ $ go build
 ## Usage
 
 `goggl` helps you manage your work sessions from the terminal easily.
-When a session is created, a JSON file is created under $HOME/.goggl/running.
-When the session is stopped, the file is moved unde $HOME/.goggl/history/ for later
+When a session is created, a JSON file is created under `$HOME/.goggl/running/`.
+When the session is stopped, the file is moved under `$HOME/.goggl/history/`for later
 usage.
 
 ```
