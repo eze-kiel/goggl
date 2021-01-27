@@ -69,6 +69,6 @@ func start(cmd *cobra.Command, args []string) error {
 		return err
 	}
 
-	logrus.Infof("Work session %s created successfully ! GLHF", s.Name)
+	logrus.Infof("work session %s created successfully ! GLHF", s.Name)
 	return nil
 }
