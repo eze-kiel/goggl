@@ -7,6 +7,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// TimeFormat is the format I use all across the program
 var TimeFormat = "2006-01-02_15:04:05"
 
 // rootCmd represents the base command when called without any subcommands
