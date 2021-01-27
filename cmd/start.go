@@ -16,12 +16,8 @@ import (
 var startCmd = &cobra.Command{
 	Use:   "start",
 	Short: "Start a new working session",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Long: `Start a new working session. A JSON file will be created under running/
+with the start time, the tag and the name of the session.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := start(cmd, args); err != nil {
 			logrus.Fatalf("cannot start a new work session: %s", err)

@@ -12,7 +12,7 @@ import (
 var initCmd = &cobra.Command{
 	Use:   "init",
 	Short: "Initialize goggl files",
-	Long: `init creates required folders in the user's home dir under .goggl/
+	Long: `Init creates required folders in the user's home dir under .goggl/
 Two folders will be created: running/ and history/`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := initialize(); err != nil {
