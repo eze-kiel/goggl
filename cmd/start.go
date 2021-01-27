@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"os"
 	"time"
 
 	"github.com/eze-kiel/goggl/session"
@@ -38,7 +39,7 @@ func start(cmd *cobra.Command, args []string) error {
 	// Get user home directory
 	homedir, err := homedir.Dir()
 	if err != nil {
-		return nil
+		return err
 	}
 
 	// Set running path
@@ -65,7 +66,7 @@ func start(cmd *cobra.Command, args []string) error {
 		return err
 	}
 
-	if err := ioutil.WriteFile(runDir+s.Name+".json", jsonData, 644); err != nil {
+	if err := ioutil.WriteFile(runDir+s.Name+".json", jsonData, os.ModePerm); err != nil {
 		return err
 	}
 
