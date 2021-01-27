@@ -2,7 +2,7 @@
 
 Manage your work time from the terminal !
 
-<img src="./assets/golendar.png" width="250" height="250" />
+<img align="center" src="./assets/golendar.png" width="250" height="250" />
 
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)
