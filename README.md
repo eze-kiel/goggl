@@ -4,6 +4,18 @@ Manage your work time from the terminal !
 
 ## Get goggl
 
+You can either:
+
+* clone this repo and build from sources (Go required):
+
+```
+$ git clone https://github.com/eze-kiel/goggl.git
+$ cd goggl
+$ go build
+```
+
+* get it from the [releases](https://github.com/eze-kiel/goggl/releases) (soon)
+* 
 ## Usage
 
 Goggl helps you manage your work sessions from the terminal easily.
@@ -26,6 +38,16 @@ Flags:
   -h, --help   help for goggl
 
 Use "goggl [command] --help" for more information about a command.
+```
+
+### Initialization
+
+Before using `goggl`, you need to intialize it:
+
+```
+$ goggl init
+INFO[0000] creating goggl files at /home/ezekiel/.goggl 
+INFO[0000] initialization has been successful !
 ```
 
 ### Create a work session
