@@ -2,7 +2,6 @@ package cmd
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"os"
 	"time"
@@ -44,7 +43,7 @@ func start(cmd *cobra.Command, args []string) error {
 
 	// Set running path
 	runDir := homedir + "/.goggl/running/"
-	fmt.Println(runDir)
+
 	// Parse tag
 	tag, err := cmd.Flags().GetString("tag")
 	if err != nil {
