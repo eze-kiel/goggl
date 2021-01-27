@@ -15,10 +15,10 @@ $ go build
 ```
 
 * get it from the [releases](https://github.com/eze-kiel/goggl/releases) (soon)
-* 
+
 ## Usage
 
-Goggl helps you manage your work sessions from the terminal easily.
+`goggl` helps you manage your work sessions from the terminal easily.
 When a session is created, a JSON file is created under $HOME/.goggl/running.
 When the session is stopped, the file is moved unde $HOME/.goggl/history/ for later
 usage.
