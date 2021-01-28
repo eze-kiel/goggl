@@ -120,4 +120,4 @@ MIT
 
 ## Credits
 
-Gopher from [MarieLetta](https://github.com/MariaLetta/free-gophers-pack) :heart:
+Gopher from [Marie Letta](https://github.com/MariaLetta/free-gophers-pack) :heart:
